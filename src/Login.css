@@ -1,0 +1,54 @@
+.login{
+    font-family: sans-serif;
+    color: rgb(104, 104, 104);
+    background: linear-gradient(90deg, #1b0b2e 0%, #2C3BDA 100%);
+    padding: 1rem;
+    border-radius: 1rem;
+    
+}
+
+.login__modal{
+    margin-top: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+ .main__img{
+    /* flex:0.5; */
+    display: flex;
+    width: 50%;
+    height: 80%;
+    border-top-left-radius: 1.2rem;
+    border-bottom-left-radius: 1.2rem;
+    margin: 0;
+}
+
+.right__side{
+    background-color: aliceblue;
+    width: 300px;
+    height: 62vh;
+    
+    border-top-right-radius: 1.2rem;    
+    border-bottom-right-radius: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    border: none;
+    
+    background-color: aliceblue;
+    cursor: pointer;
+}
+button:hover{
+    
+    background-color: rgb(138, 155, 231);
+    border-radius: 1.2rem;
+}
+
+.right__side img{
+    height: 50%;
+}

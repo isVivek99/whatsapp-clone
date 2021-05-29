@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.chat__window{
+    flex: 0.75;
+    display: flex;
+    flex-direction: column;
+}
+.chat__header{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+    padding: 20px;
+}
+.chat__headerInfo{
+    flex: 1;
+    margin-left: 15px;
+    
+}
+.chat__headerInfo > h2{
+    margin-bottom: 3px;
+    margin-top: 5px;
+    font-weight: 500px;
+}
+.chat__headerInfo p {
+    
+    color:gray;
+
+}
+
+.chat__headerIcons {
+
+    display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+}
+
+
+/* chat body */
+
+.chat__body {
+    flex: 1;
+    background-image: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png');
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: scroll;
+    
+}
+
+.chat__body::-webkit-scrollbar {
+    display: none;
+  }
+
+  .chat__body {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+  } 
+
+  .chat__message{
+      position: relative;
+      background-color: #ffffff;
+      font-size: 16px;
+      padding: 10px;
+      border-radius: 10px;
+      width: fit-content;
+      margin-bottom: 16px;
+    }
+
+    .chat__reciever{
+        margin-left: auto;
+        background-color: #dcf8c6;
+    }
+
+    .chat__name {
+        position:absolute;
+        top:-15px;
+        font-weight: 800;
+        font-size: x-small;
+    }
+    .chat__timestamp {
+        position: relative;
+        top: 10px;
+        font-weight: 500;
+        margin-left: 10px;
+        font-size: x-small;
+    }
+    /* .chat__reciever{
+        margin-left: 50vw;
+        background-color: #dcf8c6;
+        width: fit-content;
+        padding: 10px;
+        border-radius: 10px;
+        width: fit-content;
+    } */
+
+
+
+    
+
+/* chat bottom */
+
+.chat__bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid lightgray;
+}
+.chat__bottom form{
+    flex: 1;
+    display: flex;
+    padding: 2px;
+}
+
+.chat_bottomInput form input {
+    display: flex;
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+    width: 500px;
+    border: none;
+}
+.message :focus{
+    outline: none;
+}
+.chat_bottomInput form button {
+    display: none;
+}
+.chat__bottom > .MuiSvgIcon-root{
+    padding: 10px;
+    color: gray;
+}
+

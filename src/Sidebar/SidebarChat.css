@@ -1,0 +1,27 @@
+.sidebarChat__parent{
+    display: flex;
+    flex-direction: column; 
+    flex: 1; 
+    
+    cursor: pointer;
+    border-bottom: 1px #f6f6f6;
+}
+.sidebarChat{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    /* justify-content: space-between; */
+    
+}
+.sidebarChat:hover{
+    background-color: #e7e5e5;
+}
+.sidebarChat__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 15px;
+}
+.sidebarChat__info > h3, p{
+    margin: 0.5vh;
+}
